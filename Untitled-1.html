@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Propriedades de XxfurryzinxX</title>
+  <style>
+    /* Estilo base com fonte Comic Sans */
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: "Comic Sans MS", "Comic Sans", cursive, sans-serif;
+      transition: background-color 0.4s ease, color 0.4s ease, border-color 0.4s ease;
+    }
+
+    /* MODO CLARO (Default): Fundo Laranja Pastel / Texto Azul Complementar */
+    :root {
+      --bg-color: #ffe5d9;          /* Laranja pastel suave */
+      --card-bg: #ffd7ba;           /* Laranja pastel um pouco mais escuro */
+      --text-color: #1a4968;        /* Azul escuro pastel/complementar */
+      --accent-color: #2b74a4;      /* Azul vibrante complementar */
+      --border-color: #f4acb7;      /* Borda pastel */
+    }
+
+    /* MODO ESCURO: Inverte o contraste mantendo a paleta complementar */
+    [data-theme="dark"] {
+      --bg-color: #0f2330;          /* Azul escuro profundo */
+      --card-bg: #163244;           /* Azul médio escuro */
+      --text-color: #ffd7ba;        /* Laranja pastel complementar */
+      --accent-color: #ffb5a7;      /* Laranja claro pastel */
+      --border-color: #2b74a4;      /* Borda azul pastel */
+    }
+
+    body {
+      background-color: var(--bg-color);
+      color: var(--text-color);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 20px;
+    }
+
+    header {
+      width: 100%;
+      max-width: 800px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 30px;
+      padding-bottom: 15px;
+      border-bottom: 3px dashed var(--border-color);
+    }
+
+    h1 {
+      font-size: 1.8rem;
+      color: var(--accent-color);
+      text-align: center;
+    }
+
+    /* Botão de alternar tema */
+    .theme-toggle-btn {
+      background-color: var(--accent-color);
+      color: var(--bg-color);
+      border: 2px solid var(--border-color);
+      padding: 10px 18px;
+      font-size: 1rem;
+      font-weight: bold;
+      border-radius: 20px;
+      cursor: pointer;
+      box-shadow: 3px 3px 0px var(--border-color);
+    }
+
+    .theme-toggle-btn:hover {
+      transform: scale(1.05);
+    }
+
+    .theme-toggle-btn:active {
+      transform: scale(0.95);
+    }
+
+    main {
+      width: 100%;
+      max-width: 800px;
+      display: flex;
+      flex-direction: column;
+      gap: 25px;
+    }
+
+    section {
+      background-color: var(--card-bg);
+      border: 2px solid var(--border-color);
+      padding: 20px;
+      border-radius: 15px;
+      box-shadow: 4px 4px 0px var(--border-color);
+    }
+
+    h2 {
+      font-size: 1.4rem;
+      margin-bottom: 12px;
+      color: var(--accent-color);
+      border-bottom: 2px dotted var(--border-color);
+      padding-bottom: 5px;
+    }
+
+    ul {
+      list-style-type: "🐾 ";
+      padding-left: 25px;
+    }
+
+    li {
+      margin-bottom: 8px;
+      line-height: 1.5;
+    }
+
+    .glossary-list {
+      list-style-type: none;
+      padding-left: 0;
+    }
+
+    .glossary-list li {
+      margin-bottom: 10px;
+    }
+
+    strong {
+      color: var(--accent-color);
+    }
+
+    footer {
+      margin-top: 40px;
+      font-size: 0.9rem;
+      opacity: 0.8;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>~ Propriedades de | XxfurryzinxX | ~</h1>
+    <button class="theme-toggle-btn" id="themeBtn" onclick="toggleTheme()">🌙 Modo Escuro</button>
+  </header>
+
+  <main>
+    <section>
+      <h2>Filmes:</h2>
+      <ul>
+        <li>A Era Fundamental de um Furry no E.F;</li>
+        <li>A Realidade de um Furry no E.M;</li>
+        <li>A Realidade BROCHANTE de um Furry Universitário.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Séries:</h2>
+      <ul>
+        <li>SN-Nd2500 (Sentimentos Não-Nomeados de 2500);</li>
+        <li>Onde está a ordem cronológica?</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Nomenclaturas / Outros:</h2>
+      <ul class="glossary-list">
+        <li><strong>D.E</strong> = Diário Escolar</li>
+        <li><strong>D.D</strong> = Diário Doméstico</li>
+        <br>
+        <li><strong>D.E I</strong> = Diário Escolar 1 / Primeiro Diário Escolar</li>
+        <li><strong>D.E II</strong> = Diário Escolar 2 / Segundo Diário Escolar</li>
+        <li><strong>D.E III</strong> = Diário Escolar 3 / Terceiro Diário Escolar</li>
+        <li><strong>D.D I</strong> = Diário Doméstico 1 / Primeiro Diário Doméstico</li>
+        <br>
+        <li><strong>Cromalogia:</strong> Estudo das Cores (blending, layering + colorir correto)</li>
+        <li><strong>Cenologia:</strong> Estudos dos Cenários</li>
+        <li><strong>Sematologia:</strong> Estudo das Poses</li>
+        <li><strong>Prosopologia / Prosopomatologia:</strong> Estudo das expressões faciais</li>
+        <li><strong>Khrematologia:</strong> Estudo dos Objetos</li>
+        <li><strong>Bromotologia:</strong> Estudo dos Alimentos</li>
+        <li><strong>Hylologia:</strong> Estudo da Matéria, Substâncias.</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>Criado por XxfurryzinxX</p>
+  </footer>
+
+  <script>
+    function toggleTheme() {
+      const body = document.documentElement;
+      const btn = document.getElementById('themeBtn');
+      
+      if (body.getAttribute('data-theme') === 'dark') {
+        body.removeAttribute('data-theme');
+        btn.textContent = '🌙 Modo Escuro';
+      } else {
+        body.setAttribute('data-theme', 'dark');
+        btn.textContent = '☀️ Modo Claro';
+      }
+    }
+  </script>
+</body>
+</html>
